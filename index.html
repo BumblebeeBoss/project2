@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <h1 class="navheading">Library System</h1>
+            <ul class="navicon">
+                <li><a href="#table" target="_self">Books</a></li>
+                <li><a href="#register" target="_self" >Register</a></li>
+                <li><a href="#" target="_self" >ContactUs</a></li>
+                <li><a href="#" target="_self" >Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+   <!--  table and register form -->
+<div class="container" >
+     <!-- table -->
+    <div id="table">
+        <table class="table-class">
+            <h1>Books</h1>
+            <tr>
+              <th>BOOK Id</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genere</th>
+              <th>Availability</th>
+            </tr>
+            <tr>
+                <td row-span="4">1</td>
+                <td><a class="a-ref" href="#">Book-Title 1</a></td>
+                <td row-span="4">authorname 1</td>
+                <td row-span="4">genere 1</td>
+                <td row-span="4">Availabile</td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Publicatuin Date:2000</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Page Count:300</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>ISBN:123-4567890789</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td row-span="4">2</td>
+                <td><a class="a-ref" href="#">Book-Title 2</a></td>
+                <td row-span="4">authorname 2</td>
+                <td row-span="4">genere 2</td>
+                <td row-span="4">Not Availabile</td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Publicatuin Date:2005</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Page Count:250</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>ISBN:123-4567890456</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+ 
+
+            <tr>
+                <td row-span="4">3</td>
+                <td><a class="a-ref" href="#">Book-Title 3</a></td>
+                <td row-span="4">authorname 3</td>
+                <td row-span="4">genere 3</td>
+                <td row-span="4">Availabile</td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Publicatuin Date:2010</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Page Count:300</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>ISBN:123-4567890123</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+           
+            <tr>
+                <td row-span="4">4</td>
+                <td><a  class="a-ref" href="#">Book-Title 4</a></td>
+                <td row-span="4">authorname 4</td>
+                <td row-span="4">genere 4</td>
+                <td row-span="4">Availabile</td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Publicatuin Date:2012</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Page Count:450</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>ISBN:123-4567890231</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+
+
+            <tr>
+                <td row-span="4">5</td>
+                <td><a class="a-ref" href="#">Book-Title 5</a></td>
+                <td row-span="4">authorname 5</td>
+                <td row-span="4">genere 5</td>
+                <td row-span="4">Not Availabile</td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Publicatuin Date:2015</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>Page Count:350</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td>ISBN:123-4567890321</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+            </tr>
+
+          </table>
+          
+    </div>
+
+
+
+
+
+     <!-- register -->
+    <div id="register" class="register-class">
+       <form class="form" name="form" method="post">
+        <h1 class="heading-reg">Register</h1> 
+        <label for="fname">First name:</label><br>
+        <input class="input" type="text" id="fname" required placeholder="Enter first name"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input class="input" type="text" id="lname" required placeholder="Enter last name"><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input class="input" type="datetime-local" id="dob" required ><br>
+
+        <label for="age">Age:</label><br>
+        <input class="input" type="number" id="age" required min="5" max="100"><br>
+
+        <label for="email">Email:</label><br>
+        <input class="input" type="email" id="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input class="input" type="password" id="password" required  placeholder="Enter Password"><br>
+        <label for="confirm_password">Confirm Password:</label><br> 
+        <input class="input" type="password" id="confirm_password" required><br>
+        <button>Register</button>
+    </form>
+    </div>
+</body>
+</html>
